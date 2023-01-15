@@ -9,6 +9,7 @@
     introData,
     projects,
     awards,
+    certs,
     sourceLink,
     technologies,
     workExperiences,
@@ -35,7 +36,9 @@
   </h3>
   <p>
     Printer-friendly standard résumé template by
-    <a href="https://github.com/narze/resume">narze</a>, any HTML tags with
+    <a href="https://github.com/narze/resume">narze</a> (used
+    <a href="https://github.com/Leomotors/resumette">Leomotor</a>'s version of
+    the template), any HTML tags with
     <code>web-only</code> CSS class will be hidden on print.
   </p>
   <p>
@@ -111,9 +114,9 @@
   </section>
 
   <section>
-    <HideToggle />
+    <!-- <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
-    <hr />
+    <hr /> -->
 
     {#each workExperiences as exp}
       <Work {...exp} />
@@ -134,6 +137,21 @@
           <a href="https://{project.url}" target="_blank" rel="noreferrer">
             <strong>{project.url}</strong>
           </a>
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Certifiations</h2>
+    <hr />
+
+    <ul>
+      {#each certs as cert}
+        <li>
+          <HideToggle />
+          <strong>{cert.name}</strong>, {cert.details}
         </li>
       {/each}
     </ul>

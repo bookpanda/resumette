@@ -2,171 +2,142 @@ export const fullVersionLink = "https://resume.leomotors.vercel.app";
 export const sourceLink = "https://github.com/Leomotors/resumette";
 
 export const introData = {
-  name: "Nutthapat Pongtanyavichai",
-  nickname: "Leo",
+  name: "Idhibhat Pankam",
+  nickname: "Margin",
   phone: import.meta.env.DEV ? import.meta.env.VITE_PHONE : "",
   email: import.meta.env.DEV ? import.meta.env.VITE_EMAIL : "",
-  github: "Leomotors",
-  linkedin: "leo-nutthapat",
-  location: "Samut Prakan, Thailand",
-  website: "leomotors.me",
+  github: "bookpanda",
+  linkedin: "",
+  location: "Bangkok, Thailand",
+  website: "",
 };
 
 export const technologies = [
   {
     section: "Languages:",
-    details:
-      "C/C++, JavaScript, TypeScript (Strong), Node.js, Python, Dart, C#",
+    details: "JavaScript, TypeScript, Node.js, Python, C, C++",
   },
   {
-    section: "Preferred Combo:",
-    details: "SvelteKit + TailwindCSS, TypeScript",
-  },
-  {
-    section: "Library/Framework:",
+    section: "Library and Frameworks:",
     details:
-      "React, Next, Vue, Svelte/Kit, Bootstrap, TailwindCSS, Mocha, Jest, discord.js, UWP+WinUI (C++/C#), Flutter, OpenCV, CMake",
+      "React, Next, Bootstrap, TailwindCSS, Laravel, discord.js, PyThaiNLP, HuggingFace, scikit-learn, NumPy, Pandas",
   },
   {
     section: "Tools:",
-    details:
-      "Git, GitHub, VSCode, Visual Studio, zsh, Powershell, ssh, Markdown, LaTeX, Raspberry Pi",
+    details: "Git, GitHub, Visual Studio, Markdown, LaTeX",
   },
   {
     section: "IaaS, PaaS:",
-    details:
-      "Vercel, Netlify, GitHub Pages, Github Actions, Firebase (Firestore & Realtime Database), DigitalOcean (Droplet), Microsoft Azure (Functions)",
+    details: "Vercel, Cloudflare",
   },
 ];
 
 export const educations = [
   {
-    head: "Assumption College (Middle School)",
-    details: "Gifted, 2016-2019 (GPAX 3.88)",
+    head: "Suankularb Wittayalai School (Middle School)",
+    details: "Gifted, 2016-2019 (GPAX 3.99)",
   },
   {
-    head: "Triam Udom Suksa School (High School)",
-    details: "Science Math, 2019-2022 (GPAX 3.95)",
+    head: "Suankularb Wittayalai School (High School)",
+    details: "Gifted, 2019-2022 (GPAX 3.99)",
   },
   {
     head: "Chulalongkorn University",
-    details: "B.Eng. Computer Engineering, 2022-Present",
+    details: "B.Eng. Computer Engineering, 2022-Present (GPAX 3.91)",
   },
 ];
 
 export const workExperiences = [
   {
-    position: "Frontend Developer",
-    company: "Monkey Everyday",
-    url: "https://monkeyeveryday.com/",
-    years: ["June 2022", "Present"],
-    details: [
-      "Maintain monkeyeveryday.com and its CMS with Next.js, TailwindCSS and GraphQL",
-    ],
+    // position: "Frontend Developer",
+    // company: "Monkey Everyday",
+    // url: "https://monkeyeveryday.com/",
+    // years: ["June 2022", "Present"],
+    // details: [
+    //   "Maintain monkeyeveryday.com and its CMS with Next.js, TailwindCSS and GraphQL",
+    // ],
   },
 ];
 
 export const awards = [
   {
-    name: "1st Prize in Samsung Innovation Campus: IDEATHON (2019)",
+    name: "1st Place & Gold Medal Award in the 16th Thailand Olympiad in Informatics (2020)",
     details:
-      "10-day camp learning about programming. IDEATHON is held at the end of the camp to let students apply their knowledge.",
+      "Thailand's annual national competition for computer science problems where nearly 100 selected participants come to solve algorithmic puzzles. Winning a medal can guarantee acceptance into almost every Thai university.",
   },
   {
-    name: "Silver Medal Award & Determination Award in Thailand Olympiad in Informatics (2021)",
+    name: "IPST Camp 1 (2021)",
     details:
-      "A competition where around 90 students from each center solve algorithmic puzzle. Winning medal award in this competition open chance for students to be accepted by every university including Chulalongkorn.",
+      "Selection Camp for finding IOI representatives of Thailand, made it to the selection round with 25 people.",
   },
   {
-    name: "2nd Place in NITAD Hackathon (2022)",
+    name: "Silver Medal Award in Thailand Computing Olympiad (2020)",
     details:
-      "A Hackathon focusing on idea for innovations that solve the garbage problems in low-income community.",
+      "A pre-test for the 16th Thailand Olympiad in Informatics, involving computer science problems and many algorithms.",
   },
   {
-    name: "IPST Camp 2.2 (2022)",
+    name: "2th AI Builders Programs (2022)",
     details:
-      "IOI Training Camp to find representative of Thailand, made it to the final selection round with 9 people",
+      "8-week program where designated mentors help manifesting ideas into machine learning projects, I made a Natural Language Processing project on Thai words correction.",
   },
   {
-    name: "APIO 2022 Participant",
+    name: "22th Larngear Camp (2023)",
     details:
-      "IOI-Format contest but for Asia-Pacific, featuring very hard algorithmic problems",
+      "Introduction camp to the world of Engineering for highschool students, organized by the Faculty of Engineering, Chulalongkorn University. I volunteered as staff.",
   },
   {
-    name: "Code in the Wind Participant",
-    details: "Game Show for TailwindCSS users in Thailand",
+    name: "1st and 3rd Find Myself Camp (2019, 2023)",
+    details:
+      "Activity Camp for grade 9 students to kindle their journey to find their paths and passions. I volunteered as staff in the 1st camp and as organizer in the 3rd",
   },
   {
-    name: "6th Stupid Hackathon in Thailand, Most Aesthetically Pleasing Award winner",
+    name: "Dare to Speak Camp (2020)",
     details:
-      "A Hackathon where you do anything you want without caring about anything. The awards are decided by voting",
+      "Activity Camp for middle schoolers to improve their confidence in public speaking. I volunteered as organizer.",
   },
 ];
 
 export const projects = [
   {
-    name: "Food Busters",
+    name: "Thai2Kana",
     details:
-      "A team formed for AIS JUMP Thailand Hackathon. My role was the lead developer. My work includes building a sized app to be the prototype for our idea with Flutter, Building websites to list their Prototype, Website, and API for running the Image Classification Model, and Firebase CRUD App for storing and showing awesome quotes.",
-    url: "github.com/Food-Busters",
+      "A program that tries to convert the Thai language into Katakana script using Wanakana and PyThaiNLP libraries",
+    url: "thai2-kana-client.vercel.app",
   },
   {
-    name: "Crack 'n' Code Pre-TOI18 Programming Contest",
+    name: "Thinc's 1-week Hack to School Project (Frontend)",
     details:
-      "Setting up servers (DigitalOcean Droplet) and CMS (github.com/cms-dev/cms) to hold a programming contest with over 150 registered contestants. I also created the website for this contest:",
-    url: "cnc-pretoi18.netlify.app",
+      "Make an education platform app within a week. My job in the team was making frontend",
+    url: "kita.cunny.dev",
   },
   {
-    name: "Anime Captcha",
+    name: "Thinc's 10-day Project (Frontend)",
     details:
-      "Full-Stack web minigame written in SvelteKit inspired by Anime Captcha Meme. Feel free to try it:",
-    url: "anime-captcha.vercel.app",
+      "Make a group project within 10 days. My team made a productivity app for creating tasks and doing pomodoro (I made the frontend).",
+    url: "producktivity.pages.dev",
   },
   {
-    name: "Cocoa Discord Utils",
+    name: "WanchanBERTa-Thai-Grammarly",
     details:
-      "Library on npm created to simplify discord bots making, is used in all of my discord bots",
-    url: "github.com/Leomotors/cocoa-discord-utils",
+      "NLP project using WanchanBERTa to correct misspelled Thai words. Dataset used is VISTEC-TP-TH-2021 dataset",
+    url: "github.com/bookpanda/WanchanBERTa-Thai-Grammarly",
+  },
+];
+
+export const certs = [
+  {
+    name: "7.5/9 score on IELTS exam (taken in 2021)",
+    details:
+      "International English Language Testing System, getting a 7-8 score means being a good user who has operational command of the language, though with occasional inaccuracies.",
   },
   {
-    name: "RTX 2090 TiFy",
+    name: "106/120 score on CU-TEP exam (taken in 2020)",
     details:
-      "An app (GUI) that generates videos inspired by RTX 2090 Ti meme. Used OpenCV and wxWidgets with C++",
-    url: "github.com/Leomotors/RTX-2090-TiFy",
-  },
-  {
-    name: "Salim Bot",
-    details: "A 'Salim' Discord Bot",
-    url: "github.com/Leomotors/Salim-Bot",
-  },
-  {
-    name: "Waifu Bot",
-    details:
-      "Multipurpose Discord Bot running on my friends' server. Can stream music from YouTube and utilizes many discord.js features. (Embed, Interaction Components, etc.)",
-    url: "github.com/Leomotors/waifu-bot",
-  },
-  {
-    name: "@leomotors/music-bot",
-    details:
-      "Discord Bot for streaming music from YouTube, has search feature and utilize amazing cool embed, is part of waifu bot and leomotors/cminusminus",
-    url: "github.com/Leomotors/music-bot",
-  },
-  {
-    name: "Terminal Video Player",
-    details:
-      "As it name suggests, play a video with ASCII characters in Terminal, it also supports color!",
-    url: "github.com/Leomotors/Terminal-Video-Player",
-  },
-  {
-    name: "Golden Frame",
-    details:
-      'Golden Frame "กรอบทอง" Generator. CLI App written in Python with OpenCV. My first package on PyPI.',
-    url: "github.com/Leomotors/golden-frame",
+      "Chulalongkorn University Test of English Proficiency, getting 92-106 scores means being an advanced user.",
   },
 ];
 
 export const interests = [
-  "Areas: RGB, Mechanical Keyboard, Anime, Dual Monitor Desk Setup, Windows Insider",
-  "Typing: 80-100 WPM (English) 40-50 WPM (Thai)",
-  "Games: Any game that can be played with friends happily",
+  "Areas: Japanese Language, Anime, Geopolitics, Geography, 20th History",
+  "Games: RPG, strategy, sandbox games ",
 ];
