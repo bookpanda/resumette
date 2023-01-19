@@ -99,6 +99,12 @@ export const awards = [
 
 export const projects = [
   {
+    name: "AniTimeline",
+    details:
+      "A webapp that shows data from the AniList's public API by user's ID",
+    url: "ani-timeline-client.vercel.app",
+  },
+  {
     name: "Thai2Kana",
     details:
       "A program that tries to convert the Thai language into Katakana script using Wanakana and PyThaiNLP libraries",
