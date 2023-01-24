@@ -77,7 +77,7 @@
 
     <section>
       <HideToggle />
-      <p class="text-left pl-8 -mt-2">...And is open to other technologies</p>
+      <p class="text-left pl-8 -mt-2">...and is open to other technologies</p>
     </section>
   </section>
 
@@ -140,6 +140,11 @@
         </li>
       {/each}
     </ul>
+
+    <section>
+      <HideToggle />
+      <p class="text-left pl-8 -mt-2">Project list is always updating, please feel free to see the <a href={fullVersionLink} target="_blank" rel="noopener">latest one</a></p>
+    </section>
   </section>
 
   <section>
@@ -174,7 +179,7 @@
 
   <footer class="print-only">
     (See in <a href={fullVersionLink} target="_blank" rel="noopener">web</a>
-    or view <a href={sourceLink} target="_blank" rel="noopener">source code</a>)
+    for a more updated version or view <a href={sourceLink} target="_blank" rel="noopener">source code</a>)
   </footer>
 </main>
 

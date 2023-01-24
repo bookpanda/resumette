@@ -1,5 +1,5 @@
-export const fullVersionLink = "https://resume.leomotors.vercel.app";
-export const sourceLink = "https://github.com/Leomotors/resumette";
+export const fullVersionLink = "https://resumette-five.vercel.app/";
+export const sourceLink = "https://github.com/bookpanda/resumette";
 
 export const introData = {
   name: "Idhibhat Pankam",
@@ -20,7 +20,7 @@ export const technologies = [
   {
     section: "Library and Frameworks:",
     details:
-      "React, Next, Bootstrap, TailwindCSS, Laravel, discord.js, PyThaiNLP, HuggingFace, scikit-learn, NumPy, Pandas",
+      "React, Next, Bootstrap, TailwindCSS, MaterialUI, NestJS, GraphQL, Laravel, discord.js, PyThaiNLP, HuggingFace, scikit-learn, NumPy, Pandas",
   },
   {
     section: "Tools:",
@@ -47,17 +47,7 @@ export const educations = [
   },
 ];
 
-export const workExperiences = [
-  {
-    // position: "Frontend Developer",
-    // company: "Monkey Everyday",
-    // url: "https://monkeyeveryday.com/",
-    // years: ["June 2022", "Present"],
-    // details: [
-    //   "Maintain monkeyeveryday.com and its CMS with Next.js, TailwindCSS and GraphQL",
-    // ],
-  },
-];
+export const workExperiences = [{}];
 
 export const awards = [
   {
@@ -120,12 +110,12 @@ export const projects = [
     name: "Thinc's 10-day Project (Frontend)",
     details:
       "Make a group project within 10 days. My team made a productivity app for creating tasks and doing pomodoro (I made the frontend).",
-    url: "producktivity.pages.dev",
+    url: "github.com/Leomotors/producktivity",
   },
   {
     name: "WanchanBERTa-Thai-Grammarly",
     details:
-      "NLP project using WanchanBERTa to correct misspelled Thai words. Dataset used is VISTEC-TP-TH-2021 dataset",
+      "NLP project using WanchanBERTa to correct misspelled Thai words. Dataset used is VISTEC-TP-TH-2021 dataset.",
     url: "github.com/bookpanda/WanchanBERTa-Thai-Grammarly",
   },
 ];
