@@ -15,7 +15,7 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages:",
-    details: "JavaScript, TypeScript, Node.js, Python, C, C++",
+    details: "JavaScript, TypeScript, Node.js, Python, C, C++, Java",
   },
   {
     section: "Library and Frameworks:",
@@ -88,6 +88,12 @@ export const awards = [
 ];
 
 export const projects = [
+  {
+    name: "AutoPraeAksorn",
+    details:
+      "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts",
+    url: "auto-prae-aksorn-client.vercel.app",
+  },
   {
     name: "AniTimeline",
     details:
