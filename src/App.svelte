@@ -143,7 +143,7 @@
 
     <section>
       <HideToggle />
-      <p class="text-left pl-8 -mt-2">Project list is always updating, please feel free to see the <a href={fullVersionLink} target="_blank" rel="noopener">latest one</a></p>
+      <p class="text-left pl-8 mt-4">Project list is always updating, please feel free to see the <a href={fullVersionLink} target="_blank" rel="noopener">latest one</a></p>
     </section>
   </section>
 
