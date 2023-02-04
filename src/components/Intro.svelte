@@ -38,7 +38,7 @@
         {website}
       </a>
     </p>
-    <!-- <p>
+    <p>
       <a
         href="https://linkedin.com/in/{linkedin}"
         target="_blank"
@@ -46,7 +46,7 @@
       >
         Linkedin
       </a>
-    </p> -->
+    </p>
   </div>
 </div>
 

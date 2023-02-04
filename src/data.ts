@@ -7,7 +7,7 @@ export const introData = {
   phone: import.meta.env.DEV ? import.meta.env.VITE_PHONE : "",
   email: import.meta.env.DEV ? import.meta.env.VITE_EMAIL : "",
   github: "bookpanda",
-  linkedin: "",
+  linkedin: "idhibhat-pankam",
   location: "Bangkok, Thailand",
   website: "",
 };
