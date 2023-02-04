@@ -78,7 +78,7 @@ export const awards = [
   {
     name: "1st and 3rd Find Myself Camp (2019, 2023)",
     details:
-      "Activity Camp for grade 9 students to kindle their journey to find their paths and passions. I volunteered as staff in the 1st camp and as organizer in the 3rd",
+      "Activity Camp for grade 9 students to kindle their journey to find their paths and passions. I volunteered as staff in the 1st camp and as organizer in the 3rd.",
   },
   {
     name: "Dare to Speak Camp (2020)",
