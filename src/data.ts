@@ -90,6 +90,12 @@ export const awards = [
 
 export const projects = [
   {
+    name: "Intania Department Calculator",
+    details:
+      "Calculates your grades to assess your chance of getting into desired engineering department.",
+    url: "intania-department-calculator.vercel.app",
+  },
+  {
     name: "AutoPraeAksorn",
     details:
       "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts.",
