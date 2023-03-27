@@ -9,7 +9,7 @@ export const introData = {
   github: "bookpanda",
   linkedin: "idhibhat-pankam",
   location: "Bangkok, Thailand",
-  website: "",
+  website: "bookpanda.dev",
 };
 
 export const technologies = [
