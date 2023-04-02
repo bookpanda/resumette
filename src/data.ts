@@ -28,23 +28,19 @@ export const technologies = [
   },
   {
     section: "IaaS, PaaS:",
-    details: "Vercel, Cloudflare",
+    details: "Vercel, Cloudflare, Azure",
   },
 ];
 
 export const educations = [
   {
-    head: "Suankularb Wittayalai School (Middle School)",
-    details: "Gifted, 2016-2019 (GPAX 3.99)",
-  },
-  {
-    head: "Suankularb Wittayalai School (High School)",
-    details: "Gifted, 2019-2022 (GPAX 3.99)",
-  },
-  {
     head: "Chulalongkorn University",
     details:
       "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.91)",
+  },
+  {
+    head: "Suankularb Wittayalai School",
+    details: "Gifted, 2016-2022 (GPAX 3.99)",
   },
 ];
 
@@ -76,19 +72,14 @@ export const awards = [
     details:
       "Introduction camp to the world of Engineering for highschool students, organized by the Faculty of Engineering, Chulalongkorn University. I volunteered as staff.",
   },
-  {
-    name: "1st and 3rd Find Myself Camp (2019, 2023)",
-    details:
-      "Activity Camp for grade 9 students to kindle their journey to find their paths and passions. I volunteered as staff in the 1st camp and as organizer in the 3rd.",
-  },
-  {
-    name: "Dare to Speak Camp (2020)",
-    details:
-      "Activity Camp for middle schoolers to improve their confidence in public speaking. I volunteered as organizer.",
-  },
 ];
 
 export const projects = [
+  {
+    name: "bookpanda.dev",
+    details: "My personal website as gallery for my projects and resume.",
+    url: "bookpanda.dev",
+  },
   {
     name: "Intania Department Calculator",
     details:
@@ -147,6 +138,6 @@ export const certs = [
 ];
 
 export const interests = [
-  "Areas: Japanese Language, Anime, Geopolitics, Geography, 20th History",
+  "Areas: Japanese Language, Anime, Geopolitics",
   "Games: RPG, strategy, sandbox games ",
 ];

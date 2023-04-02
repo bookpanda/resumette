@@ -98,6 +98,30 @@
 
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+    <hr />
+
+    <ul>
+      {#each projects as project}
+        <li>
+          <HideToggle />
+          <strong>{project.name}</strong>
+          - {project.details}
+          <a href="https://{project.url}" target="_blank" rel="noreferrer">
+            <strong>{project.url}</strong>
+          </a>
+        </li>
+      {/each}
+    </ul>
+
+    <section>
+      <HideToggle />
+      <p class="text-left pl-8 mt-4">Project list is always updating, please feel free to see the <a href={fullVersionLink} target="_blank" rel="noopener">latest one</a></p>
+    </section>
+  </section>
+
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">
       Awards & Activities
     </h2>
@@ -125,31 +149,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
-    <hr />
-
-    <ul>
-      {#each projects as project}
-        <li>
-          <HideToggle />
-          <strong>{project.name}</strong>
-          - {project.details}
-          <a href="https://{project.url}" target="_blank" rel="noreferrer">
-            <strong>{project.url}</strong>
-          </a>
-        </li>
-      {/each}
-    </ul>
-
-    <section>
-      <HideToggle />
-      <p class="text-left pl-8 mt-4">Project list is always updating, please feel free to see the <a href={fullVersionLink} target="_blank" rel="noopener">latest one</a></p>
-    </section>
-  </section>
-
-  <section>
-    <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Certifiations</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
     <hr />
 
     <ul>
