@@ -76,6 +76,11 @@ export const awards = [
 
 export const projects = [
   {
+    name: "Lyrics2Anki",
+    details: "Makes Japanese Anki cards from ANY Spotify lyrics",
+    url: "lyrics2anki.vercel.app",
+  },
+  {
     name: "bookpanda.dev",
     details: "My personal website as gallery for my projects and resume.",
     url: "bookpanda.dev",
@@ -97,12 +102,6 @@ export const projects = [
     details:
       "A webapp that shows data from the AniList's public API by user's ID.",
     url: "ani-timeline-client.vercel.app",
-  },
-  {
-    name: "Thai2Kana",
-    details:
-      "A program that tries to convert the Thai language into Katakana script using Wanakana and PyThaiNLP libraries.",
-    url: "thai2-kana-client.vercel.app",
   },
   {
     name: "Thinc's 1-week Hack to School Project (Frontend)",
