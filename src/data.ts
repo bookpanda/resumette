@@ -15,12 +15,12 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages:",
-    details: "JavaScript, TypeScript, Node.js, Python, C, C++, Java",
+    details: "JavaScript, TypeScript, Node.js, Python, Java, Go, C, C++",
   },
   {
     section: "Library and Frameworks:",
     details:
-      "React, Next, Bootstrap, TailwindCSS, MaterialUI, NestJS, GraphQL, Laravel, discord.js, PyThaiNLP, HuggingFace, scikit-learn, NumPy, Pandas",
+      "React, Next, TailwindCSS, MaterialUI, NestJS, GraphQL, GORM, Gin, JavaFX, PyThaiNLP, NumPy, Pandas",
   },
   {
     section: "Tools:",
@@ -58,19 +58,23 @@ export const awards = [
       "Selection Camp for finding IOI representatives of Thailand, made it to the selection round with 25 people.",
   },
   {
-    name: "Silver Medal Award in Thailand Computing Olympiad (2020)",
+    name: "5th ChAMP Software Engineering Track (2023)",
     details:
-      "A pre-test for the 16th Thailand Olympiad in Informatics, involving computer science problems and many algorithms.",
+      "Mentorship program for engineering students who strives to be software engineers.",
   },
+  {
+    name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering)",
+    details: "I published a paper about Thai misspelling correction.",
+  },
+  // {
+  //   name: "19th Young Webmaster Camp (2023)",
+  //   details:
+  //     "Thailand's largest annual web bootcamp. I joined the web programming major.",
+  // },
   {
     name: "2th AI Builders Programs (2022)",
     details:
       "8-week program where designated mentors help manifesting ideas into machine learning projects, I made a Natural Language Processing project on Thai words correction.",
-  },
-  {
-    name: "22th Larngear Camp (2023)",
-    details:
-      "Introduction camp to the world of Engineering for highschool students, organized by the Faculty of Engineering, Chulalongkorn University. I volunteered as staff.",
   },
 ];
 
@@ -98,10 +102,9 @@ export const projects = [
     url: "auto-prae-aksorn-client.vercel.app",
   },
   {
-    name: "AniTimeline",
-    details:
-      "A webapp that shows data from the AniList's public API by user's ID.",
-    url: "ani-timeline-client.vercel.app",
+    name: "PraeAksornSimulator",
+    details: "JavaFX game about simulating card stunts (Prae Aksorn).",
+    url: "github.com/bookpanda/PraeAksornSimulator",
   },
   {
     name: "Thinc's 1-week Hack to School Project (Frontend)",
@@ -116,10 +119,9 @@ export const projects = [
     url: "github.com/Leomotors/producktivity",
   },
   {
-    name: "WanchanBERTa-Thai-Grammarly",
-    details:
-      "NLP project using WanchanBERTa to correct misspelled Thai words. Dataset used is VISTEC-TP-TH-2021 dataset.",
-    url: "github.com/bookpanda/WanchanBERTa-Thai-Grammarly",
+    name: "Two-stage Thai Misspelling Correction Based on Pre-trained Language Models",
+    details: "NLP project using WanchanBERTa to correct misspelled Thai words.",
+    url: "github.com/bookpanda/Two-stage-Thai-Misspelling-Correction-Based-on-Pre-trained-Language-Models",
   },
 ];
 
@@ -136,7 +138,4 @@ export const certs = [
   },
 ];
 
-export const interests = [
-  "Areas: Japanese Language, Anime, Geopolitics",
-  "Games: RPG, strategy, sandbox games ",
-];
+export const interests = ["Japanese language", "Playing the guitar"];
