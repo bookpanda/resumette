@@ -15,20 +15,20 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages:",
-    details: "JavaScript, TypeScript, Node.js, Python, Java, Go, C, C++",
+    details: "JavaScript, TypeScript, Node.js, Go, Python, Java, C++",
   },
   {
     section: "Library and Frameworks:",
     details:
-      "React, Next, TailwindCSS, MaterialUI, NestJS, GraphQL, GORM, Gin, JavaFX, PyThaiNLP, NumPy, Pandas",
+      "React, Nextjs, TailwindCSS, Nestjs, GraphQL, GORM, Gin, NumPy, Pandas",
   },
   {
     section: "Tools:",
-    details: "Git, GitHub, Visual Studio, Markdown, LaTeX",
+    details: "Git, GitHub, Docker",
   },
   {
     section: "IaaS, PaaS:",
-    details: "Vercel, Cloudflare, Azure",
+    details: "Vercel, Cloudflare, Azure, Contabo",
   },
 ];
 
@@ -36,7 +36,7 @@ export const educations = [
   {
     head: "Chulalongkorn University",
     details:
-      "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.91)",
+      "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.94)",
   },
   {
     head: "Suankularb Wittayalai School",
@@ -44,33 +44,38 @@ export const educations = [
   },
 ];
 
-export const workExperiences = [{}];
+export const workExperiences = [
+  {
+    position: "Fullstack Software Engineer Intern",
+    company: "Agoda",
+    url: "https://careersatagoda.com/",
+    years: ["June, 2023", "October, 2023"],
+    details: [
+      "Technologies used: React, TypeScript, .NET, SQL, GitLab",
+      "Experiemented new features using A/B testing, measurements, and element usage tracking",
+      "Created real-time dashboards for monitoring user behavior (Grafana, Superset (SQL))",
+      "Wrote unit tests for both frontend and backend tasks (Jest, NUnit)",
+      "Worked in a team of 4-5 people by using Agile methodology (Scrum)",
+    ],
+  },
+];
 
 export const awards = [
   {
-    name: "1st Place & Gold Medal Award in the 16th Thailand Olympiad in Informatics (2020)",
+    name: "19th Young Webmaster Camp (2023)",
     details:
-      "Thailand's annual national competition for computer science problems where nearly 100 selected participants come to solve algorithmic puzzles. Winning a medal can guarantee acceptance into almost every Thai university.",
+      "Thailand's largest annual web bootcamp. I joined the web programming major and collaborated with people from design, marketing, and content majors to pitch a bussiness model.",
   },
   {
-    name: "IPST Camp 1 (2021)",
+    name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering) (2023)",
     details:
-      "Selection Camp for finding IOI representatives of Thailand, made it to the selection round with 25 people.",
+      "I published a paper about Thai misspelling correction. At the conference, I won the Best Presentation Award.",
   },
   {
     name: "5th ChAMP Software Engineering Track (2023)",
     details:
       "Mentorship program for engineering students who strives to be software engineers.",
   },
-  {
-    name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering)",
-    details: "I published a paper about Thai misspelling correction.",
-  },
-  // {
-  //   name: "19th Young Webmaster Camp (2023)",
-  //   details:
-  //     "Thailand's largest annual web bootcamp. I joined the web programming major.",
-  // },
   {
     name: "2th AI Builders Programs (2022)",
     details:
@@ -79,6 +84,18 @@ export const awards = [
 ];
 
 export const projects = [
+  // {
+  //   name: "AutoPraeAksorn",
+  //   details:
+  //     "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts.",
+  //   url: "auto-prae-aksorn-client.vercel.app",
+  // },
+  // {
+  //   name: "AutoPraeAksorn",
+  //   details:
+  //     "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts.",
+  //   url: "auto-prae-aksorn-client.vercel.app",
+  // },
   {
     name: "Lyrics2Anki",
     details: "Makes Japanese Anki cards from ANY Spotify lyrics",
@@ -90,51 +107,27 @@ export const projects = [
     url: "bookpanda.dev",
   },
   {
-    name: "Intania Department Calculator",
-    details:
-      "Calculates your grades to assess your chance of getting into desired engineering department.",
-    url: "intania-department-calculator.vercel.app",
-  },
-  {
-    name: "AutoPraeAksorn",
-    details:
-      "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts.",
-    url: "auto-prae-aksorn-client.vercel.app",
+    name: "salad-croissant-kurikkaa",
+    details: "Experimental clicker app using WebSocket and Redis.",
+    url: "salad-croissant-kurikkaa.vercel.app",
   },
   {
     name: "PraeAksornSimulator",
     details: "JavaFX game about simulating card stunts (Prae Aksorn).",
     url: "github.com/bookpanda/PraeAksornSimulator",
   },
-  {
-    name: "Thinc's 1-week Hack to School Project (Frontend)",
-    details:
-      "Make an education platform app within a week. My job in the team was making frontend.",
-    url: "kita.cunny.dev",
-  },
-  {
-    name: "Thinc's 10-day Project (Frontend)",
-    details:
-      "Make a group project within 10 days. My team made a productivity app for creating tasks and doing pomodoro (I made the frontend).",
-    url: "github.com/Leomotors/producktivity",
-  },
-  {
-    name: "Two-stage Thai Misspelling Correction Based on Pre-trained Language Models",
-    details: "NLP project using WanchanBERTa to correct misspelled Thai words.",
-    url: "github.com/bookpanda/Two-stage-Thai-Misspelling-Correction-Based-on-Pre-trained-Language-Models",
-  },
 ];
 
 export const certs = [
   {
+    name: "156/180 score on JLPT N4 exam (taken in 2023)",
+    details:
+      "Japanese Language Proficiency Test in N4 level (Japanese fundamentals)",
+  },
+  {
     name: "7.5/9 score on IELTS exam (taken in 2021)",
     details:
       "International English Language Testing System, getting a 7-8 score means being a good user who has operational command of the language, though with occasional inaccuracies.",
-  },
-  {
-    name: "106/120 score on CU-TEP exam (taken in 2020)",
-    details:
-      "Chulalongkorn University Test of English Proficiency, getting 92-106 scores means being an advanced user.",
   },
 ];
 
