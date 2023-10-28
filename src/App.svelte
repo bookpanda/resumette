@@ -116,10 +116,13 @@
         <li>
           <HideToggle />
           <strong>{project.name}</strong>
-          - {project.details}
-          <a href="https://{project.url}" target="_blank" rel="noreferrer">
-            <strong>{project.url}</strong>
-          </a>
+          - <i>{project.stack}</i>
+          <p>
+            {project.details}
+            <a href="https://{project.url}" target="_blank" rel="noreferrer">
+              <strong>{project.url}</strong>
+            </a>
+          </p>
         </li>
       {/each}
     </ul>

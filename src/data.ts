@@ -20,7 +20,7 @@ export const technologies = [
   {
     section: "Library and Frameworks:",
     details:
-      "React, Nextjs, TailwindCSS, Nestjs, GraphQL, GORM, Gin, NumPy, Pandas",
+      "React, Nextjs, TailwindCSS, Nestjs, GraphQL, GORM, Gin, gRPC, NumPy, Pandas",
   },
   {
     section: "Tools:",
@@ -69,7 +69,7 @@ export const awards = [
   {
     name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering) (2023)",
     details:
-      "I published a paper about Thai misspelling correction. At the conference, I won the Best Presentation Award.",
+      "I published 'Two-stage Thai Misspelling Correction based on Pre-trained Language Models'. At the conference, I won the Best Presentation Award.",
   },
   {
     name: "5th ChAMP Software Engineering Track (2023)",
@@ -90,30 +90,36 @@ export const projects = [
   //     "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts.",
   //   url: "auto-prae-aksorn-client.vercel.app",
   // },
-  // {
-  //   name: "AutoPraeAksorn",
-  //   details:
-  //     "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts.",
-  //   url: "auto-prae-aksorn-client.vercel.app",
-  // },
   {
     name: "Lyrics2Anki",
-    details: "Makes Japanese Anki cards from ANY Spotify lyrics",
+    stack: "Nextjs, TypeScript, TailwindCSS, Flask, Spotify API, Azure",
+    details:
+      "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization.",
     url: "lyrics2anki.vercel.app",
   },
   {
+    name: "AutoPraeAksorn",
+    stack: "Nextjs, TypeScript, MaterialUI, Flask, Pillow",
+    details:
+      "Automatically turns images into card stunts, inspired by Jaturamitr card stunts.",
+    url: "auto-prae-aksorn-client.vercel.app",
+  },
+  {
+    name: "salad-croissant-kurikkaa",
+    stack: "Nestjs, Redis, WebSocket, Nextjs, TypeScript",
+    details: "Experimental real-time multiplayer clicker app using.",
+    url: "salad-croissant-kurikkaa.vercel.app",
+  },
+  {
     name: "bookpanda.dev",
+    stack: "Nextjs, TypeScript, MaterialUI, Anilist API",
     details: "My personal website as gallery for my projects and resume.",
     url: "bookpanda.dev",
   },
   {
-    name: "salad-croissant-kurikkaa",
-    details: "Experimental clicker app using WebSocket and Redis.",
-    url: "salad-croissant-kurikkaa.vercel.app",
-  },
-  {
     name: "PraeAksornSimulator",
-    details: "JavaFX game about simulating card stunts (Prae Aksorn).",
+    stack: "Java, JavaFX",
+    details: "Game project about simulating card stunts in a football match.",
     url: "github.com/bookpanda/PraeAksornSimulator",
   },
 ];
