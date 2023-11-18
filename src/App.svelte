@@ -115,12 +115,18 @@
       {#each projects as project}
         <li>
           <HideToggle />
-          <strong>{project.name}</strong>
+          {#if project.url !== ""}
+            <a href={`https://${project.url}`} target="_blank" rel="noreferrer">
+              <strong>{project.name}</strong>
+            </a>
+          {:else}
+            <strong>{project.name}</strong>
+          {/if}
           - <i>{project.stack}</i>
           <p>
             {project.details}
-            <a href="https://{project.url}" target="_blank" rel="noreferrer">
-              <strong>{project.url}</strong>
+            <a href="https://{project.github}" target="_blank" rel="noreferrer">
+              <strong>{project.github}</strong>
             </a>
           </p>
         </li>

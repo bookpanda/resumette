@@ -84,43 +84,50 @@ export const awards = [
 ];
 
 export const projects = [
-  // {
-  //   name: "AutoPraeAksorn",
-  //   details:
-  //     "Automatically turns images into card stunts (Prae Aksorn), inspired by Jaturamitr card stunts.",
-  //   url: "auto-prae-aksorn-client.vercel.app",
-  // },
+  {
+    name: "MyGraderList",
+    stack:
+      "golang, gRPC, microservices, clean-architecture, redis, mysql, Reactjs, TypeScript",
+    details: "University DSA grader problems rating app",
+    url: "mygraderlist.bookpanda.dev",
+    github: "github.com/bookpanda/mygraderlist",
+  },
   {
     name: "Lyrics2Anki",
-    stack: "Nextjs, TypeScript, TailwindCSS, Flask, Spotify API, Azure",
+    stack: "Reactjs, TypeScript, tailwindcss, flask, Spotify API, Azure",
     details:
       "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization.",
     url: "lyrics2anki.vercel.app",
+    github: "github.com/bookpanda/Lyrics2Anki",
   },
   {
     name: "AutoPraeAksorn",
-    stack: "Nextjs, TypeScript, MaterialUI, Flask, Pillow",
+    stack: "Reactjs, TypeScript, materialUI, flask, pillow",
     details:
       "Automatically turns images into card stunts, inspired by Jaturamitr card stunts.",
     url: "auto-prae-aksorn-client.vercel.app",
+    github: "github.com/bookpanda/AutoPraeAksorn",
   },
   {
     name: "salad-croissant-kurikkaa",
-    stack: "Nestjs, Redis, WebSocket, Nextjs, TypeScript",
+    stack: "Nestjs, redis, postgresql, webSocket, Reactjs, TypeScript",
     details: "Experimental real-time multiplayer clicker app using.",
     url: "salad-croissant-kurikkaa.vercel.app",
+    github: "github.com/bookpanda/salad-croissant-kurikkaa",
   },
   {
     name: "bookpanda.dev",
-    stack: "Nextjs, TypeScript, MaterialUI, Anilist API",
+    stack: "Reactjs, TypeScript, materialUI, graphQL",
     details: "My personal website as gallery for my projects and resume.",
     url: "bookpanda.dev",
+    github: "github.com/bookpanda/bookpanda.dev",
   },
   {
     name: "PraeAksornSimulator",
     stack: "Java, JavaFX",
     details: "Game project about simulating card stunts in a football match.",
-    url: "github.com/bookpanda/PraeAksornSimulator",
+    url: "",
+    github: "github.com/bookpanda/PraeAksornSimulator",
   },
 ];
 
