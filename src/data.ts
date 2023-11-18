@@ -19,8 +19,7 @@ export const technologies = [
   },
   {
     section: "Library and Frameworks:",
-    details:
-      "React, Nextjs, TailwindCSS, Nestjs, GraphQL, GORM, Gin, gRPC, NumPy, Pandas",
+    details: "React, Nextjs, tailwindcss, Nestjs, graphQL, gorm, gin, gRPC",
   },
   {
     section: "Tools:",
