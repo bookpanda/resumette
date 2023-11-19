@@ -1,4 +1,4 @@
-export const fullVersionLink = "https://resumette-five.vercel.app/";
+export const fullVersionLink = "https://resume.bookpanda.dev";
 export const sourceLink = "https://github.com/bookpanda/resumette";
 
 export const introData = {
