@@ -15,7 +15,8 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages:",
-    details: "JavaScript, TypeScript, Node.js, Go, Python, Java, C++",
+    details:
+      "JavaScript, TypeScript, Node.js, Go, Python, Java, C++, Bash, SQL",
   },
   {
     section: "Library and Frameworks:",
@@ -23,7 +24,7 @@ export const technologies = [
   },
   {
     section: "Tools:",
-    details: "Git, GitHub, Docker",
+    details: "Git, GitHub, Docker, Portainer",
   },
   {
     section: "IaaS, PaaS:",
