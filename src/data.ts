@@ -85,7 +85,7 @@ export const awards = [
 
 export const projects = [
   {
-    name: "MyGraderList",
+    name: "Problems Rating Web App",
     stack:
       "golang, gRPC, microservices, clean-architecture, redis, mysql, Reactjs, TypeScript",
     details: "University DSA grader problems rating app",
@@ -93,10 +93,17 @@ export const projects = [
     github: "github.com/bookpanda/mygraderlist",
   },
   {
-    name: "Lyrics2Anki",
+    name: "Twitter Bot",
+    stack: "golang, AWS DynamoDB, AWS Lambda",
+    details: "Serverless cron-job that tweets random quotes from a database",
+    url: "twitter.com/snappingthought",
+    github: "github.com/bookpanda/snapping-thoughts",
+  },
+  {
+    name: "Spotify Lyrics to Anki Cards Web App",
     stack: "Reactjs, TypeScript, tailwindcss, flask, Spotify API, Azure",
     details:
-      "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization",
+      "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization and translation",
     url: "lyrics2anki.vercel.app",
     github: "github.com/bookpanda/Lyrics2Anki",
   },
