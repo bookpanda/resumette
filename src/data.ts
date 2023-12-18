@@ -28,7 +28,7 @@ export const technologies = [
   },
   {
     section: "IaaS, PaaS:",
-    details: "Vercel, Cloudflare, Azure, Contabo",
+    details: "AWS, Vercel, Cloudflare, Contabo",
   },
 ];
 
@@ -109,13 +109,6 @@ export const projects = [
     github: "github.com/bookpanda/AutoPraeAksorn",
   },
   {
-    name: "salad-croissant-kurikkaa",
-    stack: "Nestjs, redis, postgresql, webSocket, Reactjs, TypeScript",
-    details: "Experimental real-time multiplayer clicker app using webSocket",
-    url: "salad-croissant-kurikkaa.vercel.app",
-    github: "github.com/bookpanda/salad-croissant-kurikkaa",
-  },
-  {
     name: "bookpanda.dev",
     stack: "Reactjs, TypeScript, materialUI, graphQL",
     details: "My personal website as gallery for my projects and resume",
@@ -131,17 +124,9 @@ export const projects = [
   },
 ];
 
-export const certs = [
-  {
-    name: "156/180 score on JLPT N4 exam (taken in 2023)",
-    details:
-      "Japanese Language Proficiency Test in N4 level (Japanese fundamentals)",
-  },
-  {
-    name: "7.5/9 score on IELTS exam (taken in 2021)",
-    details:
-      "International English Language Testing System, getting a 7-8 score means being a good user who has operational command of the language, though with occasional inaccuracies.",
-  },
-];
+export const certs = [];
 
-export const interests = ["Japanese language", "Playing the guitar"];
+export const interests = [
+  "Japanese language: Proficiency level N4 (Japanese fundamentals)",
+  "Playing the guitar",
+];

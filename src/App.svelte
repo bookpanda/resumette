@@ -83,6 +83,31 @@
 
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+    <hr />
+
+    {#each workExperiences as exp}
+      <Work {...exp} />
+    {/each}
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
+    <hr />
+
+    <ul>
+      {#each certs as cert}
+        <li>
+          <HideToggle />
+          <strong>{cert.name}</strong>, {cert.details}
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
     <hr />
 
@@ -94,16 +119,6 @@
         </li>
       {/each}
     </ul>
-  </section>
-
-  <section>
-    <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
-    <hr />
-
-    {#each workExperiences as exp}
-      <Work {...exp} />
-    {/each}
   </section>
 
   <section>
@@ -157,21 +172,6 @@
         <li>
           <HideToggle />
           <strong>{award.name}</strong>, {award.details}
-        </li>
-      {/each}
-    </ul>
-  </section>
-
-  <section>
-    <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
-    <hr />
-
-    <ul>
-      {#each certs as cert}
-        <li>
-          <HideToggle />
-          <strong>{cert.name}</strong>, {cert.details}
         </li>
       {/each}
     </ul>
