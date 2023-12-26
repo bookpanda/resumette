@@ -49,13 +49,13 @@ export const workExperiences = [
     position: "Fullstack Software Engineer Intern",
     company: "Agoda",
     url: "https://careersatagoda.com/",
-    years: ["June, 2023", "October, 2023"],
+    years: ["June 2023", "October 2023"],
     details: [
       "Technologies used: React, TypeScript, .NET, SQL, GitLab",
-      "Experiemented new features using A/B testing, measurements, and element usage tracking",
+      "Experimented with new features using A/B testing, measurements, and element usage tracking",
       "Created real-time dashboards for monitoring user behavior (Grafana, Superset (SQL))",
       "Wrote unit tests for both frontend and backend tasks (Jest, NUnit)",
-      "Worked in a team of 4-5 people by using Agile methodology (Scrum)",
+      "Worked in a team of 4-5 people using Agile methodology (Scrum)",
     ],
   },
 ];
@@ -101,10 +101,11 @@ export const projects = [
   },
   {
     name: "Spotify Lyrics to Anki Cards Web App",
-    stack: "Reactjs, TypeScript, tailwindcss, flask, Spotify API, Azure",
+    stack:
+      "Reactjs, TypeScript, tailwindcss, AWS Lambda, Spotify API, Azure Translator",
     details:
       "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization and translation",
-    url: "lyrics2anki.vercel.app",
+    url: "lyrics2anki.bookpanda.dev",
     github: "github.com/bookpanda/Lyrics2Anki",
   },
   {
