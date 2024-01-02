@@ -5,7 +5,6 @@
   import {
     educations,
     fullVersionLink,
-    interests,
     introData,
     projects,
     activities,
@@ -172,21 +171,6 @@
         <li>
           <HideToggle />
           <strong>{act.name}</strong>, {act.details}
-        </li>
-      {/each}
-    </ul>
-  </section>
-
-  <section>
-    <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
-    <hr />
-
-    <ul>
-      {#each interests as interest}
-        <li>
-          <HideToggle />
-          {interest}
         </li>
       {/each}
     </ul>

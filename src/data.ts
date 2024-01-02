@@ -16,7 +16,6 @@ export const technologies = [
   {
     section: "Languages",
     details: [
-      "JavaScript",
       "TypeScript",
       "Node.js",
       "Go",
@@ -24,8 +23,8 @@ export const technologies = [
       "Java",
       "C#",
       "C++",
-      "Bash",
       "SQL",
+      "日本語 (N4)",
     ],
   },
   {
@@ -100,19 +99,19 @@ export const workExperiences = [
 
 export const activities = [
   {
-    name: "2th AI Builders Programs (2022)",
+    name: "Information System Development, Student Government (2023-present)",
     details:
-      "8-week program where designated mentors help manifesting ideas into machine learning projects, I made a Natural Language Processing project on Thai words correction.",
+      "Worked as backend developer in a team of 4-5 people for the university.",
   },
   {
     name: "19th Young Webmaster Camp (2023)",
     details:
-      "Thailand's largest annual web bootcamp. I joined the web programming major and collaborated with people from design, marketing, and content majors to pitch a bussiness model.",
+      "Thailand's largest annual web bootcamp. Joined the web programming major and collaborated with people from design, marketing, and content majors to pitch a bussiness model.",
   },
   {
     name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering) (2023)",
     details:
-      "I published 'Two-stage Thai Misspelling Correction based on Pre-trained Language Models'. At the conference, I won the Best Presentation Award.",
+      "Published 'Two-stage Thai Misspelling Correction based on Pre-trained Language Models', won the Best Presentation Award at the conference.",
   },
   {
     name: "5th ChAMP Software Engineering Track (2023)",
@@ -132,15 +131,14 @@ export const projects = [
   },
   {
     name: "Twitter Bot",
-    stack: "Go, AWS DynamoDB, AWS Lambda",
+    stack: "Go, DynamoDB, Lambda",
     details: "Serverless cron-job that tweets random quotes from a database",
     url: "twitter.com/snappingthought",
     github: "github.com/bookpanda/snapping-thoughts",
   },
   {
     name: "Spotify Lyrics to Anki Cards Web App",
-    stack:
-      "React, TypeScript, tailwindcss, AWS Lambda, Python, Spotify API, Azure Translator",
+    stack: "React, TypeScript, Lambda, Python, Spotify API, Azure Translator",
     details:
       "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization and translation",
     url: "lyrics2anki.bookpanda.dev",
@@ -171,8 +169,3 @@ export const projects = [
 ];
 
 export const certs = [];
-
-export const interests = [
-  "Japanese language: Proficiency level N4 (Japanese fundamentals)",
-  "Playing the guitar",
-];
