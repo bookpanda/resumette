@@ -8,7 +8,7 @@
     interests,
     introData,
     projects,
-    awards,
+    activities,
     certs,
     sourceLink,
     technologies,
@@ -164,16 +164,14 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">
-      Awards & Activities
-    </h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Activities</h2>
     <hr />
 
     <ul>
-      {#each awards as award}
+      {#each activities as act}
         <li>
           <HideToggle />
-          <strong>{award.name}</strong>, {award.details}
+          <strong>{act.name}</strong>, {act.details}
         </li>
       {/each}
     </ul>

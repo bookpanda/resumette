@@ -22,6 +22,7 @@ export const technologies = [
       "Go",
       "Python",
       "Java",
+      "C#",
       "C++",
       "Bash",
       "SQL",
@@ -36,7 +37,7 @@ export const technologies = [
     details: [
       "Nestjs",
       "gin",
-      "gorm",
+      "GORM",
       ".NET",
       "NUnit",
       "PostgreSQL",
@@ -61,15 +62,7 @@ export const technologies = [
   },
   {
     section: "Tools",
-    details: [
-      "Git",
-      "Docker",
-      "Postman",
-      "Portainer",
-      "Grafana",
-      "Jira",
-      "Confluence",
-    ],
+    details: ["Git", "Docker", "Postman", "Portainer", "Grafana", "Jira"],
   },
   {
     section: "IaaS, PaaS",
@@ -96,16 +89,21 @@ export const workExperiences = [
     url: "https://careersatagoda.com/",
     years: ["June 2023", "October 2023"],
     details: [
-      "Technologies used: React, TypeScript, .NET, SQL, GitLab",
+      "Technologies used: React, Redux, TypeScript, Jest, .NET, NUnit, SQL, GitLab",
       "Experimented with new features using A/B testing, measurements, and element usage tracking",
       "Created real-time dashboards for monitoring user behavior (Grafana, Superset (SQL))",
-      "Wrote unit tests for both frontend and backend tasks (Jest, NUnit)",
+      "Wrote unit tests for both frontend and backend tasks",
       "Worked in a team of 4-5 people using Agile methodology (Scrum)",
     ],
   },
 ];
 
-export const awards = [
+export const activities = [
+  {
+    name: "2th AI Builders Programs (2022)",
+    details:
+      "8-week program where designated mentors help manifesting ideas into machine learning projects, I made a Natural Language Processing project on Thai words correction.",
+  },
   {
     name: "19th Young Webmaster Camp (2023)",
     details:
@@ -121,25 +119,20 @@ export const awards = [
     details:
       "Mentorship program for engineering students who strives to be software engineers.",
   },
-  {
-    name: "2th AI Builders Programs (2022)",
-    details:
-      "8-week program where designated mentors help manifesting ideas into machine learning projects, I made a Natural Language Processing project on Thai words correction.",
-  },
 ];
 
 export const projects = [
   {
     name: "Problems Rating Web App",
     stack:
-      "golang, gRPC, microservices, clean-architecture, redis, mysql, Reactjs, TypeScript",
+      "Go, gRPC, microservices, clean architecture, Redis, MySQL, React, TypeScript",
     details: "University DSA grader problems rating app",
     url: "mygraderlist.bookpanda.dev",
     github: "github.com/bookpanda/mygraderlist",
   },
   {
     name: "Twitter Bot",
-    stack: "golang, AWS DynamoDB, AWS Lambda",
+    stack: "Go, AWS DynamoDB, AWS Lambda",
     details: "Serverless cron-job that tweets random quotes from a database",
     url: "twitter.com/snappingthought",
     github: "github.com/bookpanda/snapping-thoughts",
@@ -147,7 +140,7 @@ export const projects = [
   {
     name: "Spotify Lyrics to Anki Cards Web App",
     stack:
-      "Reactjs, TypeScript, tailwindcss, AWS Lambda, Spotify API, Azure Translator",
+      "React, TypeScript, tailwindcss, AWS Lambda, Python, Spotify API, Azure Translator",
     details:
       "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization and translation",
     url: "lyrics2anki.bookpanda.dev",
@@ -155,7 +148,7 @@ export const projects = [
   },
   {
     name: "AutoPraeAksorn",
-    stack: "Reactjs, TypeScript, materialUI, flask, pillow",
+    stack: "React, TypeScript, materialUI, flask, pillow",
     details:
       "Automatically turns images into card stunts, inspired by Jaturamitr card stunts",
     url: "auto-prae-aksorn-client.vercel.app",
@@ -163,7 +156,7 @@ export const projects = [
   },
   {
     name: "bookpanda.dev",
-    stack: "Reactjs, TypeScript, materialUI, graphQL",
+    stack: "React, TypeScript, materialUI, graphQL",
     details: "My personal website as gallery for my projects and resume",
     url: "bookpanda.dev",
     github: "github.com/bookpanda/bookpanda.dev",
