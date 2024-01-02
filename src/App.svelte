@@ -108,21 +108,6 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
-    <hr />
-
-    <ul>
-      {#each educations as edu}
-        <li>
-          <HideToggle />
-          <strong>{edu.head}</strong>, {edu.details}
-        </li>
-      {/each}
-    </ul>
-  </section>
-
-  <section>
-    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
@@ -158,6 +143,21 @@
         >
       </p>
     </section>
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+    <hr />
+
+    <ul>
+      {#each educations as edu}
+        <li>
+          <HideToggle />
+          <strong>{edu.head}</strong>, {edu.details}
+        </li>
+      {/each}
+    </ul>
   </section>
 
   <section>
