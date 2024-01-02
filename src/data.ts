@@ -14,21 +14,66 @@ export const introData = {
 
 export const technologies = [
   {
-    section: "Languages:",
-    details:
-      "JavaScript, TypeScript, Node.js, Go, Python, Java, C++, Bash, SQL",
+    section: "Languages",
+    details: [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Go",
+      "Python",
+      "Java",
+      "C++",
+      "Bash",
+      "SQL",
+    ],
   },
   {
-    section: "Library and Frameworks:",
-    details: "React, Nextjs, tailwindcss, Nestjs, graphQL, gorm, gin, gRPC",
+    section: "Frontend",
+    details: ["React", "Nextjs", "tailwindcss", "shadcnUI", "materialUI"],
   },
   {
-    section: "Tools:",
-    details: "Git, GitHub, Docker, Portainer",
+    section: "Backend",
+    details: [
+      "Nestjs",
+      "gin",
+      "gorm",
+      ".NET",
+      "NUnit",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "DynamoDB",
+      "Lambda",
+    ],
   },
   {
-    section: "IaaS, PaaS:",
-    details: "AWS, Vercel, Cloudflare, Contabo",
+    section: "Technologies",
+    details: [
+      "REST",
+      "GraphQL",
+      "gRPC",
+      "CI/CD",
+      "microservices",
+      "clean architecture",
+      "TDD",
+      "system design",
+    ],
+  },
+  {
+    section: "Tools",
+    details: [
+      "Git",
+      "Docker",
+      "Postman",
+      "Portainer",
+      "Grafana",
+      "Jira",
+      "Confluence",
+    ],
+  },
+  {
+    section: "IaaS, PaaS",
+    details: ["AWS", "Azure", "Vercel", "Cloudflare", "Contabo"],
   },
 ];
 

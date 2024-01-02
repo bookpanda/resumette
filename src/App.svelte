@@ -58,9 +58,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">
-      Technologies and Languages
-    </h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Skills</h2>
     <hr />
 
     <table class="text-left items-start table table-fixed">
@@ -68,17 +66,21 @@
         <tr>
           <HideToggle />
           <td class="align-top pl-4 w-[11rem] print:w-36">
-            <span class="w-36 print:w-32">- {tech.section}</span>
+            <span class="w-36 print:w-32">• {tech.section}</span>
           </td>
-          <td><span>{tech.details}</span></td>
+          <td>
+            {#each tech.details as item, index}
+              {#if index > 0}
+                •
+              {/if}
+              <span>
+                {item}
+              </span>
+            {/each}
+          </td>
         </tr>
       {/each}
     </table>
-
-    <section>
-      <HideToggle />
-      <p class="text-left pl-8 -mt-2">...and is open to other technologies</p>
-    </section>
   </section>
 
   <section>
