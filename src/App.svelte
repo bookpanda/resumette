@@ -97,14 +97,18 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
     <hr />
 
-    <ul>
+    <div class="flex">
       {#each certs as cert}
-        <li>
-          <HideToggle />
-          <strong>{cert.name}</strong>, {cert.details}
-        </li>
+        <HideToggle />
+        <a href={cert.url} target="_blank">
+          <img
+            alt="aws"
+            src={cert.image}
+            class="print:h-20 print:w-20 h-28 w-28"
+          />
+        </a>
       {/each}
-    </ul>
+    </div>
   </section>
 
   <section>

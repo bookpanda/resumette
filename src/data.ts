@@ -1,5 +1,6 @@
 export const fullVersionLink = "https://resume.bookpanda.dev";
 export const sourceLink = "https://github.com/bookpanda/resumette";
+import { default as cloudPractitioner } from "./certs/cloud-practitioner.png";
 
 export const introData = {
   name: "Idhibhat Pankam",
@@ -168,4 +169,9 @@ export const projects = [
   },
 ];
 
-export const certs = [];
+export const certs = [
+  {
+    image: cloudPractitioner,
+    url: "https://www.credly.com/badges/3cc5547a-7c07-46a7-817f-7cd346df3c7e/public_url",
+  },
+];
