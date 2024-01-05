@@ -90,9 +90,10 @@ export const workExperiences = [
     years: ["June 2023", "October 2023"],
     details: [
       "Technologies used: React, Redux, TypeScript, Jest, .NET, NUnit, SQL, GitLab",
-      "Experimented with new features using A/B testing, measurements, and element usage tracking",
-      "Created real-time dashboards for monitoring user behavior (Grafana, Superset (SQL))",
+      "Experimented with new features using A/B testing, measurements, and element tracking for thousands of users",
+      "Created real-time dashboards for monitoring user behavior using Grafana, Superset (SQL)",
       "Wrote unit tests for both frontend and backend tasks",
+      "Delivered features that serve tens of thousands of property owners",
       "Worked in a team of 4-5 people using Agile methodology (Scrum)",
     ],
   },
