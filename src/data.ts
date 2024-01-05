@@ -123,9 +123,15 @@ export const activities = [
 
 export const projects = [
   {
+    name: "Pet Adoption Web App (Backend)",
+    stack: "Go, fiber, gRPC, Redis, PostgreSQL",
+    details: "Contributed to the Animal Welfare Club 'Johnjud' app",
+    url: "github.com/isd-sgcu/johnjud-gateway",
+    github: "github.com/isd-sgcu/johnjud-backend",
+  },
+  {
     name: "Problems Rating Web App",
-    stack:
-      "Go, gRPC, microservices, clean architecture, Redis, MySQL, React, TypeScript",
+    stack: "Go, fiber, gRPC, Redis, MySQL, React, TypeScript",
     details: "University DSA grader problems rating app",
     url: "mygraderlist.bookpanda.dev",
     github: "github.com/bookpanda/mygraderlist",
@@ -141,7 +147,7 @@ export const projects = [
     name: "Spotify Lyrics to Anki Cards Web App",
     stack: "React, TypeScript, Lambda, Python, Spotify API, Azure Translator",
     details:
-      "Makes Japanese Anki cards from ANY Spotify lyrics via word tokenization and translation",
+      "Makes Japanese Anki cards from ANY Spotify lyrics by tokenization and translation",
     url: "lyrics2anki.bookpanda.dev",
     github: "github.com/bookpanda/Lyrics2Anki",
   },
@@ -149,7 +155,7 @@ export const projects = [
     name: "AutoPraeAksorn",
     stack: "React, TypeScript, materialUI, flask, pillow",
     details:
-      "Automatically turns images into card stunts, inspired by Jaturamitr card stunts",
+      "Turns images into card stunts, inspired by Jaturamitr card stunts",
     url: "auto-prae-aksorn-client.vercel.app",
     github: "github.com/bookpanda/AutoPraeAksorn",
   },
