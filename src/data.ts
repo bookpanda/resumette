@@ -61,12 +61,12 @@ export const technologies = [
     ],
   },
   {
-    section: "Tools",
-    details: ["Git", "Docker", "Postman", "Portainer", "Grafana", "Jira"],
+    section: "IaaS, PaaS",
+    details: ["AWS", "Docker", "Kubernetes", "Vercel", "Cloudflare", "Contabo"],
   },
   {
-    section: "IaaS, PaaS",
-    details: ["AWS", "Azure", "Vercel", "Cloudflare", "Contabo"],
+    section: "Tools",
+    details: ["Git", "Postman", "Portainer", "Grafana", "Jira"],
   },
 ];
 
