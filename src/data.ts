@@ -103,7 +103,7 @@ export const activities = [
   {
     name: "Information System Development, Student Government (2023-present)",
     details:
-      "Worked as backend developer in a team of 4-5 people for the university.",
+      "Work as backend developer in a team of 4-5 people for the university.",
   },
   {
     name: "19th Young Webmaster Camp (2023)",
