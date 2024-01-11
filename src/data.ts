@@ -108,7 +108,7 @@ export const activities = [
   {
     name: "19th Young Webmaster Camp (2023)",
     details:
-      "Thailand's largest annual web bootcamp. Joined the web programming major and collaborated with people from design, marketing, and content majors to pitch a bussiness model.",
+      "Thailand's largest annual web bootcamp. Joined the web programming major and collaborated with people from design, marketing, and content majors to pitch a business model.",
   },
   {
     name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering) (2023)",
@@ -118,7 +118,7 @@ export const activities = [
   {
     name: "5th ChAMP Software Engineering Track (2023)",
     details:
-      "Mentorship program for engineering students who strives to be software engineers.",
+      "Mentorship program for engineering students who strive to be software engineers.",
   },
 ];
 
