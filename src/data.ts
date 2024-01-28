@@ -25,7 +25,7 @@ export const technologies = [
       "C#",
       "C++",
       "SQL",
-      "日本語 (N4)",
+      "日本語 (N3)",
     ],
   },
   {
