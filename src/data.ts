@@ -35,7 +35,7 @@ export const technologies = [
       "Redux",
       "tailwindcss",
       "shadcnUI",
-      "ASP.NET",
+      "ASP.NET Core",
       "gin",
       "GORM",
       "Redis",
