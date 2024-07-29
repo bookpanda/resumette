@@ -78,6 +78,30 @@ export const educations = [
 
 export const workExperiences = [
   {
+    position: "Backend Software Engineer Intern",
+    company: "Agoda",
+    url: "https://careersatagoda.com/",
+    years: ["June 2023", "July 2023"],
+    details: [
+      "Technologies used: GitLab CI/CD, Nginx, Scala, Play Framework, MSSQL",
+      "Migrated Finance Backoffice (internal tool) to PrivateCloud (internal cloud)",
+      "Sped up the image build process by 50% by optimizing the Dockerfile",
+      "Migrated Generic Adjustment (internal tool) scenarios data source from Hadoop to MSSQL",
+    ],
+  },
+  {
+    position: "Backend Developer",
+    company: "Information System Development, Student Government",
+    url: "https://isd.sgcu.in.th/",
+    years: ["December 2023", "Present"],
+    details: [
+      "Technologies used: Go, GORM, PostgreSQL, Redis, S3, Docker, Kubernetes, gRPC, GitOps",
+      "Led the development of the Freshy Orientation Web API for the Student Government (production 6,000 users)",
+      "Led the development of Pet Adoption Web API for the Animal Welfare Club",
+      "Initiated the backend onboarding process for new club members",
+    ],
+  },
+  {
     position: "Fullstack Software Engineer Intern",
     company: "Agoda",
     url: "https://careersatagoda.com/",
@@ -89,26 +113,9 @@ export const workExperiences = [
       "Created real-time dashboards for monitoring user behavior using Grafana, Superset (SQL)",
     ],
   },
-  {
-    position: "Backend Software Engineer Intern",
-    company: "Agoda",
-    url: "https://careersatagoda.com/",
-    years: ["June 2023", "July 2023"],
-    details: [
-      "Technologies used: GitLab Actions, Nginx, Scala, Play Framework, MSSQL",
-      "Migrated Finance Backoffice (internal tool) to PrivateCloud (internal cloud)",
-      "Sped up the image build process by 50% by optimizing the Dockerfile",
-      "Migrated Generic Adjustment (internal tool) scenarios data source from Hadoop to MSSQL",
-    ],
-  },
 ];
 
 export const activities = [
-  {
-    name: "Information System Development, Student Government (Dec 2023-present)",
-    details:
-      "Working as backend developer in a team of 4-5 people for the university.",
-  },
   {
     name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering) (2023)",
     details:
