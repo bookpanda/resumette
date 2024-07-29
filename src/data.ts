@@ -56,6 +56,7 @@ export const technologies = [
       "JWT",
       "OAuth",
       "caching",
+      "metrics",
     ],
   },
   {
@@ -64,7 +65,15 @@ export const technologies = [
   },
   {
     section: "Tools",
-    details: ["Git", "Postman", "DBeaver", "Portainer", "Lens", "Grafana"],
+    details: [
+      "Git",
+      "Postman",
+      "DBeaver",
+      "Portainer",
+      "Lens",
+      "Prometheus",
+      "Grafana",
+    ],
   },
 ];
 
@@ -121,13 +130,26 @@ export const activities = [
     details:
       "Published 'Two-stage Thai Misspelling Correction based on Pre-trained Language Models', won the Best Presentation Award at the conference.",
   },
+  {
+    name: "5th ChAMP Software Engineering Track (2023)",
+    details:
+      "Mentorship program for engineering students who strive to be software engineers.",
+  },
 ];
 
 export const projects = [
   {
-    name: "Pet Adoption Web App (Backend)",
-    stack: "Go, fiber, gRPC, Redis, PostgreSQL",
-    details: "Contributed to the Animal Welfare Club 'Johnjud' app",
+    name: "Freshy Orientation Web API",
+    stack: "Go, Gin, gRPC, Redis, PostgreSQL, S3, Prometheus, Grafana",
+    details:
+      "Freshmen orientation registration, group matching, and score tally web app",
+    url: "github.com/isd-sgcu/rpkm67-gateway",
+    github: "github.com/isd-sgcu/rpkm67-backend",
+  },
+  {
+    name: "Pet Adoption Web API",
+    stack: "Go, fiber, gRPC, Redis, PostgreSQL, Minio",
+    details: "Animal Welfare Club 'Johnjud' web app for adopting club's pets",
     url: "github.com/isd-sgcu/johnjud-gateway",
     github: "github.com/isd-sgcu/johnjud-backend",
   },
@@ -160,20 +182,6 @@ export const projects = [
       "Turns images into card stunts, inspired by Jaturamitr card stunts",
     url: "auto-prae-aksorn-client.vercel.app",
     github: "github.com/bookpanda/AutoPraeAksorn",
-  },
-  {
-    name: "bookpanda.dev",
-    stack: "React, TypeScript, materialUI, graphQL",
-    details: "My personal website as gallery for my projects and resume",
-    url: "bookpanda.dev",
-    github: "github.com/bookpanda/bookpanda.dev",
-  },
-  {
-    name: "PraeAksornSimulator",
-    stack: "Java, JavaFX",
-    details: "Game project about simulating card stunts in a football match",
-    url: "",
-    github: "github.com/bookpanda/PraeAksornSimulator",
   },
 ];
 
