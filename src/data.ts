@@ -17,34 +17,29 @@ export const technologies = [
   {
     section: "Languages",
     details: [
+      "Go",
+      "C#",
       "TypeScript",
       "Node.js",
-      "Go",
       "Python",
       "Java",
-      "C#",
       "C++",
       "SQL",
       "日本語 (N3)",
     ],
   },
   {
-    section: "Frontend",
-    details: ["React", "Nextjs", "tailwindcss", "shadcnUI", "materialUI"],
-  },
-  {
-    section: "Backend",
+    section: "Fullstack",
     details: [
-      "Nestjs",
+      "React",
+      "Redux",
+      "tailwindcss",
+      "shadcnUI",
+      "ASP.NET",
       "gin",
       "GORM",
-      ".NET",
-      "NUnit",
-      "PostgreSQL",
-      "MySQL",
       "Redis",
-      "DynamoDB",
-      "Lambda",
+      "S3",
     ],
   },
   {
@@ -58,6 +53,9 @@ export const technologies = [
       "clean architecture",
       "TDD",
       "system design",
+      "JWT",
+      "OAuth",
+      "caching",
     ],
   },
   {
@@ -66,7 +64,7 @@ export const technologies = [
   },
   {
     section: "Tools",
-    details: ["Git", "Postman", "Portainer", "Grafana", "Jira"],
+    details: ["Git", "Postman", "DBeaver", "Portainer", "Lens", "Grafana"],
   },
 ];
 
@@ -75,10 +73,6 @@ export const educations = [
     head: "Chulalongkorn University",
     details:
       "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.91)",
-  },
-  {
-    head: "Suankularb Wittayalai School",
-    details: "Gifted, 2016-2022 (GPAX 3.99)",
   },
 ];
 
@@ -89,36 +83,36 @@ export const workExperiences = [
     url: "https://careersatagoda.com/",
     years: ["June 2023", "October 2023"],
     details: [
-      "Technologies used: React, Redux, TypeScript, Jest, .NET, NUnit, SQL, GitLab",
+      "Technologies used: React, Redux, TypeScript, Jest, .NET, NUnit, MSSQL, Grafana",
       "Experimented with new features using A/B testing, measurements, and element tracking for thousands of users",
-      "Created real-time dashboards for monitoring user behavior using Grafana, Superset (SQL)",
-      "Wrote unit tests for both frontend and backend tasks",
       "Delivered features that serve tens of thousands of property owners",
-      "Worked in a team of 4-5 people using Agile methodology (Scrum)",
+      "Created real-time dashboards for monitoring user behavior using Grafana, Superset (SQL)",
+    ],
+  },
+  {
+    position: "Backend Software Engineer Intern",
+    company: "Agoda",
+    url: "https://careersatagoda.com/",
+    years: ["June 2023", "July 2023"],
+    details: [
+      "Technologies used: GitLab Actions, Nginx, Scala, Play Framework, MSSQL",
+      "Migrated Finance Backoffice (internal tool) to PrivateCloud (internal cloud)",
+      "Sped up the image build process by 50% by optimizing the Dockerfile",
+      "Migrated Generic Adjustment (internal tool) scenarios data source from Hadoop to MSSQL",
     ],
   },
 ];
 
 export const activities = [
   {
-    name: "Information System Development, Student Government (2023-present)",
+    name: "Information System Development, Student Government (Dec 2023-present)",
     details:
-      "Work as backend developer in a team of 4-5 people for the university.",
-  },
-  {
-    name: "19th Young Webmaster Camp (2023)",
-    details:
-      "Thailand's largest annual web bootcamp. Joined the web programming major and collaborated with people from design, marketing, and content majors to pitch a business model.",
+      "Working as backend developer in a team of 4-5 people for the university.",
   },
   {
     name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering) (2023)",
     details:
       "Published 'Two-stage Thai Misspelling Correction based on Pre-trained Language Models', won the Best Presentation Award at the conference.",
-  },
-  {
-    name: "5th ChAMP Software Engineering Track (2023)",
-    details:
-      "Mentorship program for engineering students who strive to be software engineers.",
   },
 ];
 
