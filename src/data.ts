@@ -93,9 +93,9 @@ export const workExperiences = [
     years: ["June 2024", "July 2024"],
     details: [
       "Technologies used: GitLab CI/CD, Nginx, Scala, Play Framework, MSSQL",
-      "Migrated Finance Backoffice (internal tool) to PrivateCloud (internal cloud)",
-      "Sped up the image build process by 50% by optimizing the Dockerfile",
-      "Migrated Generic Adjustment (internal tool) scenarios data source from Hadoop to MSSQL",
+      "Migrated Finance Backoffice from Cspider VMs to PrivateCloud",
+      "Migrated Generic Adjustment tool's scenarios data source from Hadoop to MSSQL",
+      "Set up Devstack internal tool in Finance Backoffice repository for faster development",
     ],
   },
   {
@@ -105,7 +105,7 @@ export const workExperiences = [
     years: ["December 2023", "Present"],
     details: [
       "Technologies used: Go, GORM, PostgreSQL, Redis, S3, Docker, Kubernetes, gRPC, GitOps",
-      "Led the development of the Freshy Orientation Web API for the Student Government (production 6,000 users)",
+      "Led the development of the Freshy Orientation Web API for the Student Government (production 7,000 users)",
       "Led the development of Pet Adoption Web API for the Animal Welfare Club",
       "Initiated the backend onboarding process for new club members",
     ],
