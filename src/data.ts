@@ -161,27 +161,28 @@ export const projects = [
     github: "github.com/bookpanda/mygraderlist",
   },
   {
-    name: "Twitter Bot",
-    stack: "Go, DynamoDB, Lambda",
-    details: "Serverless cron-job that tweets random quotes from a database",
-    url: "twitter.com/snappingthought",
-    github: "github.com/bookpanda/snapping-thoughts",
+    name: "Personal Bucket Storage",
+    stack: "Go, Gin, Minio, Prometheus, Grafana",
+    details:
+      "API for accessing personal bucket storage with metrics and monitoring",
+    url: "github.com/bookpanda/minio-api",
+    github: "github.com/bookpanda/minio-api",
   },
   {
     name: "Spotify Lyrics to Anki Cards Web App",
-    stack: "React, TypeScript, Lambda, Python, Spotify API, Azure Translator",
+    stack:
+      "React, TypeScript, AWS Lambda, Python, Spotify API, Azure Translator",
     details:
       "Makes Japanese Anki cards from ANY Spotify lyrics by tokenization and translation",
     url: "lyrics2anki.bookpanda.dev",
     github: "github.com/bookpanda/Lyrics2Anki",
   },
   {
-    name: "AutoPraeAksorn",
-    stack: "React, TypeScript, materialUI, flask, pillow",
-    details:
-      "Turns images into card stunts, inspired by Jaturamitr card stunts",
-    url: "auto-prae-aksorn-client.vercel.app",
-    github: "github.com/bookpanda/AutoPraeAksorn",
+    name: "Twitter Bot",
+    stack: "Go, DynamoDB, Lambda",
+    details: "Serverless cron-job that tweets random quotes from a database",
+    url: "twitter.com/snappingthought",
+    github: "github.com/bookpanda/snapping-thoughts",
   },
 ];
 
