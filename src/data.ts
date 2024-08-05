@@ -81,7 +81,7 @@ export const educations = [
   {
     head: "Chulalongkorn University",
     details:
-      "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.91)",
+      "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.86)",
   },
 ];
 
