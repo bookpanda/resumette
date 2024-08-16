@@ -154,6 +154,14 @@ export const projects = [
     github: "github.com/isd-sgcu/johnjud-backend",
   },
   {
+    name: "Single Sign-On Implementation",
+    stack: "Go, PostgreSQL, ASP.NET Core, Redis, React, TypeScript",
+    details:
+      "2 services with internal JWT auth connected to CAS to simulate SSO",
+    url: "sso-cas.bookpanda.dev",
+    github: "github.com/bookpanda/sso-cas",
+  },
+  {
     name: "Problems Rating Web App",
     stack: "Go, fiber, gRPC, Redis, MySQL, React, TypeScript",
     details: "University DSA grader problems rating app",
@@ -176,13 +184,6 @@ export const projects = [
       "Makes Japanese Anki cards from ANY Spotify lyrics by tokenization and translation",
     url: "lyrics2anki.bookpanda.dev",
     github: "github.com/bookpanda/Lyrics2Anki",
-  },
-  {
-    name: "Twitter Bot",
-    stack: "Go, DynamoDB, Lambda",
-    details: "Serverless cron-job that tweets random quotes from a database",
-    url: "twitter.com/snappingthought",
-    github: "github.com/bookpanda/snapping-thoughts",
   },
 ];
 
