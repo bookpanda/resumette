@@ -1,6 +1,6 @@
 <script lang="ts">
   export let name = "";
-  export let nickname = "";
+  export let jobTitle = "";
   export let phone = "";
   export let email = "";
   export let github = "";
@@ -22,7 +22,7 @@
     class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl print:text-[1.7rem] text-center p-4 print:pt-0"
   >
     {name}
-    <span class="block text-base lg:text-2xl">({nickname})</span>
+    <span class="block text-base lg:text-2xl">{jobTitle}</span>
   </h2>
 
   <div

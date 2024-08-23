@@ -4,7 +4,7 @@ import { default as cloudPractitioner } from "./certs/cloud-practitioner.png";
 
 export const introData = {
   name: "Idhibhat Pankam",
-  nickname: "Margin",
+  jobTitle: "Fullstack Software Engineer",
   phone: import.meta.env.DEV ? import.meta.env.VITE_PHONE : "",
   email: import.meta.env.DEV ? import.meta.env.VITE_EMAIL : "",
   github: "bookpanda",
