@@ -150,7 +150,7 @@ export const projects = [
     name: "Pet Adoption Web API",
     stack: "Go, fiber, gRPC, Redis, PostgreSQL, Minio",
     details: "Animal Welfare Club 'Johnjud' web app for adopting club's pets",
-    url: "github.com/isd-sgcu/johnjud-gateway",
+    url: "johnjud.com",
     github: "github.com/isd-sgcu/johnjud-backend",
   },
   {
