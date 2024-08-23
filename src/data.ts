@@ -139,7 +139,7 @@ export const activities = [
 
 export const projects = [
   {
-    name: "Freshy Orientation Web API",
+    name: "Freshy Orientation Web API (production 7,000 users)",
     stack: "Go, Gin, gRPC, Redis, PostgreSQL, S3, Prometheus, Grafana",
     details:
       "Freshmen orientation registration, group matching, and score tally web app",
