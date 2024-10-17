@@ -81,7 +81,7 @@ export const educations = [
   {
     head: "Chulalongkorn University",
     details:
-      "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.86)",
+      "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.88)",
   },
 ];
 
@@ -95,7 +95,7 @@ export const workExperiences = [
       "Technologies used: GitLab CI/CD, Nginx, Scala, Play Framework, MSSQL",
       "Migrated Finance Backoffice from Cspider VMs to PrivateCloud",
       "Migrated Generic Adjustment tool's scenarios data source from Hadoop to MSSQL",
-      "Set up Devstack internal tool in Finance Backoffice repository for faster development",
+      "Assessed the technical feasibility of integrating the Devstack internal tool into finance department repositories.",
     ],
   },
   {
@@ -130,11 +130,6 @@ export const activities = [
     details:
       "Published 'Two-stage Thai Misspelling Correction based on Pre-trained Language Models', won the Best Presentation Award at the conference.",
   },
-  {
-    name: "5th ChAMP Software Engineering Track (2023)",
-    details:
-      "Mentorship program for engineering students who strive to be software engineers.",
-  },
 ];
 
 export const projects = [
@@ -162,19 +157,20 @@ export const projects = [
     github: "github.com/bookpanda/sso-cas",
   },
   {
-    name: "Problems Rating Web App",
-    stack: "Go, fiber, gRPC, Redis, MySQL, React, TypeScript",
-    details: "University DSA grader problems rating app",
-    url: "mygraderlist.bookpanda.dev",
-    github: "github.com/bookpanda/mygraderlist",
+    name: "Discord RAG Bot",
+    stack: "Python, TypeScript, Langchain, discordjs, fastapi",
+    details: "Microsoft RAG Hackathon project submission",
+    url: "github.com/seg-org/rag-bot",
+    github: "github.com/seg-org/rag-api",
   },
   {
-    name: "Personal Bucket Storage",
-    stack: "Go, Gin, Minio, Prometheus, Grafana",
+    name: "Course Assignments Sharing Platform",
+    stack:
+      "TypeScript, ASP.NET, Chrome Extension, Firestore, React, Redux, Redis",
     details:
-      "API for accessing personal bucket storage with metrics and monitoring",
-    url: "github.com/bookpanda/minio-api",
-    github: "github.com/bookpanda/minio-api",
+      "1-click assignment solutions sharing, removing the burden of taking answer screenshots",
+    url: "ourcourseville.vercel.app",
+    github: "github.com/bookpanda/ourcourseville",
   },
   {
     name: "Spotify Lyrics to Anki Cards Web App",
