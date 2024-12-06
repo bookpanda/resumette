@@ -119,7 +119,7 @@
           <img
             alt="aws"
             src={cert.image}
-            class="print:h-20 print:w-20 h-28 w-28"
+            class="print:h-20 print:w-20 h-28 w-28 mr-4"
           />
         </a>
       {/each}
