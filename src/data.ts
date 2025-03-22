@@ -91,7 +91,7 @@ export const workExperiences = [
     position: "Backend Software Engineer Intern",
     company: "Agoda",
     url: "https://careersatagoda.com/",
-    years: ["June 2024", "July 2024"],
+    years: ["May 2024", "July 2024"],
     details: [
       "Technologies used: GitLab CI/CD, Nginx, Scala, Play Framework, MSSQL",
       "Migrated Finance Backoffice from Cspider VMs to PrivateCloud",
@@ -115,7 +115,7 @@ export const workExperiences = [
     position: "Fullstack Software Engineer Intern",
     company: "Agoda",
     url: "https://careersatagoda.com/",
-    years: ["June 2023", "October 2023"],
+    years: ["May 2023", "October 2023"],
     details: [
       "Technologies used: React, Redux, TypeScript, Jest, .NET, NUnit, MSSQL, Grafana",
       "Experimented with new features using A/B testing, measurements, and element tracking for thousands of users",
